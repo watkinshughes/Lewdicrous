@@ -1,0 +1,54 @@
+/*!
+ 
+ Custom theme LESS
+ 
+ */
+
+/* LESS constants */
+@ltergreen: #BBDDBB;
+@ltgreen: #99CC99;
+@midgreen: #336633;
+@drkgreen: #225522;
+@drkergreen: #003300;
+
+ html, body{
+  background: @midgreen;
+ }
+
+ .navbar, .navbar-inner { 
+  background: @drkgreen; 
+  background-image: none;
+}
+.navbar .nav > li > a {
+  color: @ltgreen;
+}
+
+.navbar .nav .active > a, 
+.navbar .nav .active > a:hover {
+  background: @drkergreen;
+}
+
+.content {
+  width: 100%;
+  padding: 10% auto;
+}
+
+.globe {
+  width: 180px;
+  margin: 25% auto;
+}
+
+.info-link {
+  text-align: center;
+  width: 200px;
+  margin: 1em auto;
+}
+
+/* FlexSlider Custom Theme */
+.flexslider {margin: 0 auto; background: none; border: none; position: relative; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; border-radius: 0; -webkit-box-shadow: none; zoom: 1;}
+.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.loading .flex-viewport {max-height: 300px;}
+.flexslider .slides {zoom: 1;}
+
+// .flex-control-paging { display: none;}
+.carousel li {margin-right: 5px}
