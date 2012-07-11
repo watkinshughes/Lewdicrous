@@ -5,27 +5,21 @@
  */
 
 /* LESS constants */
-@ltergreen: #BBDDBB;
-@ltgreen: #99CC99;
-@midgreen: #336633;
-@drkgreen: #225522;
-@drkergreen: #003300;
+@base: #facbcc;
+@midwhite: #eee;
+@drk: #666;
+
 
  html, body{
-  background: @midgreen;
+  background: @midwhite;
  }
 
  .navbar, .navbar-inner { 
-  background: @drkgreen; 
+  background: @drk; 
   background-image: none;
 }
 .navbar .nav > li > a {
-  color: @ltgreen;
-}
-
-.navbar .nav .active > a, 
-.navbar .nav .active > a:hover {
-  background: @drkergreen;
+  color: @base;
 }
 
 .content {
@@ -33,9 +27,9 @@
   padding: 10% auto;
 }
 
-.globe {
-  width: 180px;
-  margin: 25% auto;
+.lewd {
+  max-width: 400px;
+  margin: 10% auto;
 }
 
 .info-link {
