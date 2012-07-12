@@ -20,6 +20,8 @@ $(document).ready(function() {
     slideshow: false,
     controlNav: false,
     directionNav: false,
+    touch: true,                  
+    video: true,
     start: function(slider) {
     $('.slide-anchor').click(function(event){
       event.preventDefault();
