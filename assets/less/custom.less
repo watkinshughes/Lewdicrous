@@ -26,6 +26,28 @@
 .navbar .nav > li > a {
   color: @base;
 }
+.navbar .btn-navbar {
+  background: #666;
+    &:hover {
+      background: @base;
+    }
+}
+
+.navbar .btn-navbar .icon-bar {
+  background: #fff;
+}
+
+.nav-collapse .nav > li > a, 
+.nav-collapse .dropdown-menu a {
+  color: @base !important;
+}
+
+.nav-collapse .nav > li > a:hover, 
+.nav-collapse .dropdown-menu a:hover {
+  color: #fff !important;
+  background: #666 !important;
+}
+
 
 .content {
   width: 100%;
