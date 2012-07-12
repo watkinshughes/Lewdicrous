@@ -50,7 +50,7 @@
 
 .nav-collapse .nav > li > a, 
 .nav-collapse .dropdown-menu a { 
-  font-size: 1.3em; line-height: 1.3em; 
+  font-size: 1.1em; line-height: 1.3em; 
 }
 
 .content {
@@ -68,11 +68,28 @@
   width: 200px;
   margin: 1em auto;
 }
-
+section {
+  padding: 0 0 3em 0;
+}
 article {
-  padding: 10%;
+  padding: 0 10%;
+  margin: 0 auto;
   font-size: 1.4em;
   line-height: 1.6em;
+    &.gallery {
+      padding: 0 5%;
+        img {
+          padding: 2em 0 0 0;
+            &.horz {
+              max-width: 600px;
+              max-height: 400px;
+            }
+            &.vert {
+              max-width: 400px;
+              max-height: 600px; 
+            }
+          }
+    }
 }
 
 p {
