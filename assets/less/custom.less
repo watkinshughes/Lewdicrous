@@ -80,9 +80,10 @@ article {
   font-size: 1.4em;
   line-height: 1.6em;
     &.gallery {
-      padding: 0 5%;
+      padding: 0 20%;
         img {
-          padding: 2em 0 0 0;
+          padding: 2em 0 1em 0;
+          margin: 0 auto;
             &.horz {
               max-width: 600px;
               max-height: 400px;
@@ -92,6 +93,19 @@ article {
               max-height: 600px; 
             }
           }
+        figcaption {
+          font-size: .8em;
+          line-height: 1.1em;
+          text-align: right;
+            &.horz {
+              max-width: 600px;
+              margin: 0 auto;
+            }
+            &.vert {
+              max-width: 400px;
+              margin: 0 auto;
+            }
+        }
     }
 }
 p {
@@ -107,6 +121,10 @@ p {
 }
 .animated-gif {
   max-width: 600px;
+}
+.btn-toolbar {
+  max-width: 500px;
+  margin: 9px auto;
 }
 
 /* FlexSlider Custom Theme */
