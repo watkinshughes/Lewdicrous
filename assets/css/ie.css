@@ -1,0 +1,9 @@
+/*!
+ * IE styles
+ */
+
+ .navbar,
+ .navbar-inner,
+ .navbar-static-top { 
+ 	filter: none;
+ }
