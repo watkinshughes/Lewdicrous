@@ -5,4 +5,6 @@ In <em>Lewdicrous</em>,  <a href="http://www.sallyheller.com/" target="_blank">S
 
 This rep is the GitHub Pages based site for this project/exhibition. It is based on Twitter Bootstrap. To do includes: removing unused Bootstrap elements and finalizing the content.
 
+Exhibition July 14-August 5, 2012 @ [The Front](http://www.nolafront.org/), New Orleans
+
 Site development by [Proper Cursive](http://propercursive.com)
